@@ -1,0 +1,120 @@
+.hero-content{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    min-height: 100vh;
+    padding: 72px 28px;
+    background-color: var(--light-bg);
+}
+
+.hero-content::-webkit-scrollbar {
+    display: none;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 730px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-top{
+    min-width: 100%;
+    max-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-top-title{
+    font-size: 36px;
+    letter-spacing: 0.025em;
+    font-weight: 600;
+    color: var(--dark-black);
+}
+
+.content-top-description{
+    color: var(--dark-gray);
+}
+
+.filter-wrapper{
+    display: flex;
+    max-height: 100%;
+    align-items: center;
+}
+
+.filter-status{
+    display: flex;
+    align-items: center;
+}
+
+.filter-by-status{
+    font-weight: 500;
+    color: var(--dark-black);
+}
+
+.filter-label{
+    display: none;
+}
+
+.dropdown-wrapper{
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.filter-items{
+    width: 160px;
+    background-color: white;
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    top: 120px;
+    position: absolute;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    border-radius: 12px;
+    margin-top: 8px;
+}
+
+.filter-items-wrapper{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 8px;
+    gap: 8px;
+}
+
+.filter-tems-checkbox{
+    accent-color: #7c5dfa;
+}
+
+.filter-tems-checkbox:hover{
+    accent-color: #7c5dfa;
+}
+
+.new-invoice-btn{
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    background-color: #7c5dfa;
+    border-radius: 999px;
+    border: 0;
+    cursor: pointer;
+}
+
+.new-invoice-text{
+    color: white;
+    font-weight: 600;
+    font-style: 18px;
+}
+
+.new-text{
+    display: none;
+}
+
+.invoice-card-home-wrapper{
+    margin-top: 40px;
+    gap: 16px;
+}

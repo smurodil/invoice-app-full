@@ -1,0 +1,48 @@
+.paid-text-color{
+    color: #33d69f;
+    background-color: #33d69f0f;
+}
+
+.paid-bg-color{
+    background-color: #33d69f;
+}
+
+.pending-text-color{
+    color: #ff8f00;
+    background-color: #ff8f000f;
+}
+
+.pending-bg-color{
+    background-color: #ff8f00;
+}
+
+.draft-text-color{
+    color: #dfe3fa;
+    background-color: #dfe3fa0f;
+}
+
+.draft-bg-color{
+    background-color: #dfe3fa;
+}
+
+.paid-status-wrapper{
+    border-radius: 8px;
+    display: flex;
+    padding: 13px;
+    width: 104px;
+    align-items: center;
+}
+
+.paid-status{
+    height: 12px;
+    width: 12px;
+    margin-right: 15px;
+    z-index: -1;
+    border-radius: 9999px;
+}
+
+.type-text{
+    text-transform: capitalize;
+    z-index: 1;
+    margin-left: 15px;
+}

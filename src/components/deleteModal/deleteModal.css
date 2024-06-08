@@ -1,0 +1,100 @@
+.delete-modal{
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 16px 8px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    z-index: 50;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #000005be;
+}
+.delete-modal::-webkit-scrollbar {
+    display: none;
+}
+
+.delete-modal-wrapper{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    max-height: 95vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: var(--white);
+    color: var(--dark-black);
+    font-weight: bold;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    max-width: 448px;
+    width: 100%;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.delete-modal-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.delete-modal-title{
+    font-weight: bold;
+    color: var(--dark-black);
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 13px;
+}
+
+.delete-modal-req{
+    color: var(--gray);
+    font-weight: 600;
+    letter-spacing: -0.25px;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+.delete-modal-content{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.delete-modal-delete-btn{
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 17px 24px;
+    background-color: #EC5757;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 9999px;
+    border: 0;
+}
+
+.delete-modal-delete-btn:hover{
+    opacity: 0.75;
+}
+
+.delete-modal-cancel-btn{
+    padding: 17px 24px;
+    align-items: center;
+    color: var(--dark-black);
+    background-color: #635fc71a;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 9999px;
+    border: 0;
+}
+
+.delete-modal-cancel-btn:hover{
+    opacity: 0.75;
+}

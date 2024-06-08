@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Spartan', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-header-color: #373B53;
+    --light-bg: #f8f8f8;
+    --dark-black: #0C0E16;
+    --dark-gray: #888EB0;
+    --status-color: #858BB2;
+    --light-gray: #F9FAFE;
+    --white: #fff;
+    --gray: #7E88C3;
+    --light-white: #F9FAFE;
+    --light-black: #373B53;
+    --sidebar-bg: #fff;
+}
+
+.dark{
+    --bg-header-color: #1E2139;
+    --light-bg: #141625;
+    --dark-black: #ffffff;
+    --dark-gray: #DFE3FA;
+    --status-color: #DFE3FA;
+    --light-gray: #252945;
+    --white: #1E2139;
+    --gray: #DFE3FA;
+    --light-white: #252945;
+    --light-black: #0C0E16;
+    --sidebar-bg: #141625;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
