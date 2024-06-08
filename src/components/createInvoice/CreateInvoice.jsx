@@ -361,7 +361,7 @@ function CreateInvoice({ setOpenCreateInvoice, invoice, type }) {
           </div>
           <h2 className="create-invoice-item-list">Item List</h2>
           {item.map((itemDetails, index) => (
-            <div className="create-invoice-add-item-wrapper">
+            <div key={index} className="create-invoice-add-item-wrapper">
               <AddItem
                 isValidatorActive={isValidatorActive}
                 key={index}
