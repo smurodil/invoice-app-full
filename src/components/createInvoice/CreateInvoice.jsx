@@ -342,8 +342,8 @@ function CreateInvoice({ setOpenCreateInvoice, invoice, type }) {
                 onChange={(e) => setpaymentTerms(e.target.value)}
                 className="payment-terms-select"
               >
-                {deliveryTimes.map((time) => (
-                  <option key={time} value={time.value}>
+                {deliveryTimes.map((time, index) => (
+                  <option key={index} value={time.value}>
                     {time.text}
                   </option>
                 ))}
@@ -364,9 +364,9 @@ function CreateInvoice({ setOpenCreateInvoice, invoice, type }) {
             <div key={index} className="create-invoice-add-item-wrapper">
               <AddItem
                 isValidatorActive={isValidatorActive}
-                key={index}
                 handleOnChange={handleOnChange}
                 setItem={setItem}
+                key={index}
                 onDelete={onDelete}
                 itemDetails={itemDetails}
               />
