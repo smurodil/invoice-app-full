@@ -1,5 +1,5 @@
 import "./createInvoice.css";
-import AddItem from "../addItem/addItem";
+import AddItem from "../addItem/AddItem";
 import { v4 as uuidv4 } from "uuid";
 import { useDispatch } from "react-redux";
 import invoiceSlice from "../../features/invoiceSlice";
